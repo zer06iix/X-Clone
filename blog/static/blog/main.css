@@ -28,9 +28,10 @@ body {
     font-weight: 500;
   }
   
-  .nav-right{
+  /* .nav-right{
+    float: right;
     margin: auto;
-  }
+  } */
 
   .content-section {
     background: #ffffff;

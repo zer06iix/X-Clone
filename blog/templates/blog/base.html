@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="site-header">
-        {% comment %} <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand mr-4" href="{% url "blog-home" %}">Django Blog</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,8 +30,8 @@
                     </div>
                 </div>
             </div>
-        </nav> {% endcomment %}
-        <nav class="navbar navbar-dark bg-dark fixed-top">
+        </nav> 
+        {% comment %} <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="{% url "blog-home" %}">
                     <img src="{% static "blog/pepsi.png" %}" alt="pepsi" width="30" height="30" style="border-radius: 50px;">
@@ -69,7 +69,7 @@
                         </div>
                     </div>
             </div>
-        </nav>
+        </nav> {% endcomment %}
     </header>
     <br>
     <main role="main" class="container">
