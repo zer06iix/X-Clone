@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Posts
+from django.contrib.auth.models import User
 
 # posts = [
 #     {
@@ -20,7 +21,7 @@ from .models import Posts
 
 def home(request):
     context = {
-        'posts': 
+        'posts': Posts.objects.all()
     }
     return render(request,"blog/home.html", context)
 
