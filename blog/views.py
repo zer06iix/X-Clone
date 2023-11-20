@@ -33,8 +33,9 @@ from .models import Posts
 
 class PostListView(ListView):
     model = Posts
-    template_name = 'blog/home.html'  # <app>/<model>_<viewtype>.html
-    context_object_name = 'Posts'
+    # <app>/<model>_<viewtype>.html
+    template_name = 'blog/home.html'
+    context_object_name = 'posts'
     ordering = 'date_posted'
 
 
