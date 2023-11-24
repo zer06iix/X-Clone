@@ -4,6 +4,6 @@ from .models import Posts
 
 class PostSerializer(serializers.ModelSerializer):
     class Meta:
-        models = Posts
+        model = Posts
         fields = ['title', 'content']
         # fields = '__all__'

@@ -3,6 +3,13 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
 
+from typing import Any
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from .serializer import ProfileSerializer
+from .models import Profile
+
 def register(request):
     if request.method == 'POST':
         form = UserRegisterForm(request.POST)
@@ -39,3 +46,12 @@ def profile(request):
         'p_form': p_form
     }
     return render(request, 'users/profile.html', context)
+
+class ProfileList(APIView):
+    def get(self, request):
+        profiles = Profile.objects.all()
+        serializer = ProfileSerializer(profiles, many=True)
+        return Response(serializer.data)
+    
+    def post(self):
+        pass
