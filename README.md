@@ -9,5 +9,5 @@ My first simple django blog.
   <li>REST API</li>
 </ul>
 <h1>Reqirements</h1>
-Python version 3.11.4
+Python version 3.11.4<br>
 Django version 5.0.1
