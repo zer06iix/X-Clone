@@ -1,22 +1,21 @@
 # django_project
 My first simple django blog.
-<h1>Features</h1>
-<ul>
-  <li>Login, Logout, Registration</li>
-  <li>Update user</li>
-  <li>Create profile for users</li>
-  <li>Pagination</li>
-  <li>REST API</li>
-</ul>
-<h1>Reqirements</h1>
-Python version 3.11.4<br>
-Django version 5.0.1
-<h1>How to launch?</h1>
-<ol>
-  <li>Clone this repo</li>
-  <li>Write the following command in terminal</li>
-</ol>
-<pre>
-  pipenv shell
-  python manage.py runserver
-</pre>
+# Features
+- Login, Logout, Registration
+- Update user
+- Create profile for users
+- Pagination
+- REST API
+
+# Reqirements
+- Python version 3.11.4<br>
+- Django version 5.0.1
+# How to launch?
+1. Install python
+2. Install pip
+3. install django
+4. Clone this repository
+5. Open the porject
+6. Write `pipenv shell` in terminal
+7. Write `python manage.py runserver` to run the project
+
