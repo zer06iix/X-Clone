@@ -11,3 +11,9 @@ My first simple django blog.
 <h1>Reqirements</h1>
 Python version 3.11.4<br>
 Django version 5.0.1
+<h1>How to launch?</h1>
+<ol>
+  <li>Clone this repo</li>
+  <li>Write the following command in terminal</li>
+</ol>
+<pre>pipenv shell</pre>
