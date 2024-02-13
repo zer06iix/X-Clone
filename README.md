@@ -12,7 +12,7 @@ My first simple django blog.
 - Django version 5.0.1
 # How to launch?
 1. Install python
-2. Install pip
+2. Install pipenv
 3. install django
 4. Clone this repository
 5. Open the porject
