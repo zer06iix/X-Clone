@@ -1,5 +1,5 @@
 # django_project
-My first simple django project.
+My first simple django blog.
 <h1>Features</h1>
 <ul>
   <li>Login, Logout, Registration</li>
