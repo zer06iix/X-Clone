@@ -8,3 +8,6 @@ My first simple django blog.
   <li>Pagination</li>
   <li>REST API</li>
 </ul>
+<h1>Reqirements</h1>
+Python version 3.11.4
+Django version 5.0.1
