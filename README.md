@@ -15,7 +15,7 @@ My first simple django blog.
 2. Install pipenv
 3. install django
 4. Clone this repository
-5. Open the porject
+5. Open the project
 6. Write `pipenv shell` in terminal
 7. Write `python manage.py runserver` to run the project
 
