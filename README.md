@@ -16,4 +16,7 @@ Django version 5.0.1
   <li>Clone this repo</li>
   <li>Write the following command in terminal</li>
 </ol>
-<pre>pipenv shell</pre>
+<pre>
+  pipenv shell
+  python manage.py runserver
+</pre>
