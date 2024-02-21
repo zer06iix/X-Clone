@@ -1,5 +1,3 @@
-# django_project
-My first simple django blog.
 # Features
 - Login, Logout, Registration
 - Update user
