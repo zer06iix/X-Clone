@@ -12,8 +12,7 @@ My first simple django blog.
 - Django version 5.0.1
 # How to launch?
 1. Install python 3.11.4
-2. Install git
-3. Clone this repository using `git clone [your repo url]`
-4. Open the project
-5. Write `pip install -r requirements.txt` in terminal
-6. Write `python manage.py runserver` to run the project
+2. Clone this repository
+3. Open the project
+4. Write `pip install -r requirements.txt` in terminal
+5. Write `python manage.py runserver` to run the project
