@@ -13,4 +13,5 @@
 2. Clone this repository
 3. Open the project
 4. Write `pip install -r requirements.txt` in terminal
-5. Write `python manage.py runserver` to run the project
+5. Write `pythom manage.py migrate` to apply anu changes to the database
+6. Write `python manage.py runserver` to run the project
